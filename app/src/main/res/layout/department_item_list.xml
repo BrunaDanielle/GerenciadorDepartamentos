@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                                   android:layout_height="wrap_content"
+                                   android:layout_width="match_parent"
+                                   android:layout_margin="16dp">
+    <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp">
+
+        <TextView
+                android:id="@+id/name_dep"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginLeft="15dp"
+                android:text="@string/name_dep"
+                android:textSize="20sp"
+                android:layout_gravity="center_vertical"
+                android:textStyle="bold"
+                android:textColor="#000"
+                android:layout_marginStart="15dp" android:inputType="textPersonName"/>
+        <TextView
+                android:id="@+id/sigla_dep"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginLeft="10dp"
+                android:text="@string/sigla_dep"
+                android:textSize="20sp"
+                android:layout_gravity="center_vertical"
+                android:textStyle="bold"
+                android:textColor="#000"
+                android:layout_marginStart="15dp" android:inputType="textPersonName|textEmailAddress"/>
+
+        <TextView
+                android:id="@+id/id_dep"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginLeft="10dp"
+                android:text="id"
+                android:textSize="20sp"
+                android:layout_gravity="center_vertical"
+                android:textStyle="bold"
+                android:textColor="#000"
+                android:layout_marginStart="15dp"/>
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
+

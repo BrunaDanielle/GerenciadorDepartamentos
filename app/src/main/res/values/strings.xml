@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">SGDP</string>
+    <string name="name_dep">Departmento</string>
+    <string name="name_emp">Funcionário</string>
+    <string name="rg_emp">RG</string>
+    <string name="dp_name_new">Departamento</string>
+    <string name="emp_name_new">Nome</string>
+    <string name="emp_rg_new">RG</string>
+    <string name="sigla_dep">Sigla</string>
+    <string name="dp_sigla_new">Sigla</string>
+    <string name="title_activity_new_department">NewDepartmentActivity</string>
+
+</resources>
